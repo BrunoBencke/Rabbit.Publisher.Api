@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Rabbit.Models\Rabbit.Models.csproj" />
     <ProjectReference Include="..\Rabbit.Repositories\Rabbit.Repositories.csproj" />
     <ProjectReference Include="..\Rabbit.Services\Rabbit.Services.csproj" />
